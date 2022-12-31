@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Great+Vibes&family=Open+Sans:ital,wght@0,600;1,300&family=Pacifico&family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Great+Vibes&family=Open+Sans:ital,wght@0,600;1,300&family=Pacifico&family=Prosto+One&display=swap');
 
 body{
     margin: 0px !important;
@@ -10,7 +10,8 @@ body{
     width: 100%;
     background-color: #1b241d;
     display: inline-block;
-    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Prosto One', cursive;
+    font-weight: bold;
     /* display: grid;
     grid-auto-flow: column;
     grid-template-columns: 2fr 6fr; */
@@ -179,6 +180,10 @@ body{
     font-weight: bold;
     font-size: large;
 }
+.day-title{
+    font-weight: bold;
+}
+
 .school-day{
     text-align: center;
     color: black;
@@ -243,8 +248,8 @@ body{
 }
 
 .pro-right img{
-    width:40px;
-    height: 40px;
+    width: 40px;
+    height: 35px;
     margin-left: 5px;
 }
 .P-Title{
@@ -372,11 +377,18 @@ body{
         font-size: large;
     }
    .logo-con img{
-    display: inline-block;
-    margin-top: 20px;
-    width: 60%;
-    height: 350px;
-}
+        display: inline-block;
+        margin-top: 20px;
+        width: 60%;
+        height: 350px;
+    }
+    .pro-right img{
+        width: 30px !important;
+        height: 25px !important;
+        margin-left: 5px;
+    }
+    
+    
   }
 
   @media (max-width: 900px) {
@@ -479,5 +491,38 @@ body{
         padding-bottom: 5%;
         background-color: rgb(168, 223, 223);
         border-radius: 2%;
+    }
+  }
+  @media (max-width: 400px) {
+    .day-title{
+        font-weight: bold;
+    }
+    .logo-con img{
+        display: inline-block;
+        margin-top: 20px;
+        width: 60%;
+        height: 300px;
+    }
+    .pic-travelling {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 5%;
+    }
+    .pic-travelling img{
+        width: 125px;
+        height: 130px;
+        margin-bottom: 5%;
+    }
+    .skill img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 1%;
+        border-width: 1px;
+    }
+    .icons img{
+        border-radius: 30%;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
     }
   }
